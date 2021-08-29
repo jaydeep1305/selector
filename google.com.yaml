@@ -1,0 +1,10 @@
+serp_data:
+    css: .g
+    multiple: true
+    children:
+        link:
+            css: a
+            type: Link
+        text:
+            css: h3
+            type: Text
