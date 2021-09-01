@@ -1,4 +1,4 @@
 data:
     css: a
     type: Link
-
+    multiple: true
