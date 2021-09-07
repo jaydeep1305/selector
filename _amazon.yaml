@@ -6,16 +6,16 @@ price:
     type: Text
 short_description:
     css: '#featurebullets_feature_div'
-    type: Text
+    type: HTML
 images:
     css: '.imgTagWrapper img'
     type: Attribute
     attribute: data-a-dynamic-image
 rating:
-    css: span.arp-rating-out-of-text
+    css: '#acrPopover[title]'
     type: Text
 number_of_reviews:
-    css: 'a.a-link-normal h2'
+    css: '#acrCustomerReviewText'
     type: Text
 variants:
     css: 'form.a-section li'
